@@ -1,0 +1,29 @@
+/*https://coolors.co/0b090a-161a1d-660708-a4161a-ba181b-e5383b-b1a7a6-d3d3d3-f5f3f4-ffffff*/
+body {
+    background-color: hsla(330, 10%, 4%, 1);
+}
+
+.container {
+    border: 2px solid hsla(0, 0%, 83%, 1);
+    padding: 0px;
+
+}
+
+.header {
+    height: 150px;
+}
+
+
+.navbar .bg-dark {
+    color: white;
+}
+
+
+
+
+
+h1 {
+    color: hsla(0, 0%, 83%, 1);
+    font-weight: 900;
+    text-align: center;
+}
