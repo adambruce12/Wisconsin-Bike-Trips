@@ -1,4 +1,5 @@
 /*https://coolors.co/0b090a-161a1d-660708-a4161a-ba181b-e5383b-b1a7a6-d3d3d3-f5f3f4-ffffff*/
+
 body {
     background-color: hsla(330, 10%, 4%, 1);
 }
@@ -6,7 +7,8 @@ body {
 .container {
     border: 2px solid hsla(0, 0%, 83%, 1);
     padding: 0px;
-
+    background-color: hsla(206, 14%, 10%, 1);
+    font-family: 'Oswald', sans-serif;
 }
 
 .header {
@@ -14,16 +16,104 @@ body {
 }
 
 
-.navbar .bg-dark {
+.navbar {
+    background-color: hsla(5, 7%, 67%, 1);
     color: white;
+}
+
+#mainNav .navbar-brand {
+    padding-left: 10px;
+    color: hsla(359, 87%, 21%, 1);
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    font-size: 1.25em;
+}
+
+#mainNav .nav-link {
+    color: hsla(330, 9%, 96%, 1);
+}
+
+.active {
+    text-decoration: underline;
+
+}
+
+#mainNav .nav-link:hover {
+    text-decoration: underline;
+    font-size: 1.25em;
 }
 
 
 
-
-
 h1 {
-    color: hsla(0, 0%, 83%, 1);
+    color: hsla(330, 9%, 96%, 1);
     font-weight: 900;
     text-align: center;
+}
+
+.card {
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: hsla(0, 0%, 83%, 1);
+    border: 2px solid white;
+}
+
+.btn {
+    margin: auto;
+}
+
+.card img {
+    width: auto;
+    height: 175px;
+}
+
+.card button {
+    margin: auto;
+    background-color: hsla(358, 76%, 36%, 1);
+    color: white;
+    border: 2px solid transparent;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card button:hover {
+    font-size: 1.15em;
+    transition: ease-in .5s;
+}
+
+.card button:active {
+    border-radius: 0px;
+    border: 2px solid white;
+    transition: ease-in .5s;
+}
+
+
+svg {
+    width: 2em;
+    height: 2em;
+    fill: white;
+    padding: 2px;
+    padding-left: 10px;
+    display: inline;
+}
+
+a {
+    overflow: hidden;
+    color: hsla(5, 7%, 67%, 1);
+}
+
+a:hover {
+    overflow: hidden;
+    color: hsla(5, 7%, 67%, 1);
+}
+
+footer {
+    background-color: hsla(5, 7%, 67%, 1);
+    border-top: 2px solid hsla(0, 0%, 83%, 1);
+}
+
+footer p {
+    float: right;
+    padding-right: 5px;
+    color: hsla(5, 7%, 67%, 1);
 }
