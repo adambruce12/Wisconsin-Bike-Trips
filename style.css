@@ -9,12 +9,12 @@ body {
     padding: 0px;
     background-color: hsla(206, 14%, 10%, 1);
     font-family: 'Oswald', sans-serif;
+    overflow: hidden;
 }
 
 .header {
     height: 150px;
 }
-
 
 .navbar {
     background-color: hsla(5, 7%, 67%, 1);
@@ -87,7 +87,6 @@ h1 {
     transition: ease-in .5s;
 }
 
-
 svg {
     width: 2em;
     height: 2em;
@@ -105,6 +104,21 @@ a {
 a:hover {
     overflow: hidden;
     color: hsla(5, 7%, 67%, 1);
+}
+
+.about {
+    color: white;
+
+}
+
+#contactForm {
+    color: white;
+
+}
+
+#contactForm label {
+    float: right;
+    padding-left: 25px;
 }
 
 footer {
